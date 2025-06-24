@@ -1,7 +1,7 @@
 import React from "react";
-import Model from "../../assets/3d-icon/LinkdIn-Model.png";
-import photo from "../../assets/3d-icon/Passport pic.jpg";
-import baground from "../../assets/images/linkdin-bg.jpg";
+// import Model from "../../assets/3d-icon/LinkdIn-Model.png";
+// import photo from "../../assets/3d-icon/Passport pic.jpg";
+// import baground from "../../assets/images/linkdin-bg.jpg";
 import Tilt from "./tilt";
 import { Link } from "react-router-dom";
 
@@ -42,7 +42,7 @@ const LinkedInCon = () => {
               </span>
             </p>
 
-            <Link to="https://www.linkedin.com/in/rajyadav-2920r0218j8/">
+            <Link to="https://www.linkedin.com/in//">
               <button className="text-[1.2rem] font-semibold opacity-[70%]">
                 View full profile
               </button>
