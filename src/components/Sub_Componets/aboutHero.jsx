@@ -6,7 +6,7 @@ const AboutHero = (props) => {
   return (
     <Tilt>
       <div
-        className="xl:w-[350px] sm:w-[22rem] w-[18rem] xl:h-[30rem] md:h-[28rem] h-[24rem] rounded-[4rem] animate-text hover:bg-gradient-to-bl from-cyan-600
+        className="xl:w-[22rem] xs:w-[20rem] xs:h-[28rem] w-[18rem] h-[26rem] rounded-[4rem] animate-text hover:bg-gradient-to-bl from-cyan-600
            via-indigo-400 to-green-400 bg-clip- text-transparent hover:shadow-card"
         key={id}
       >

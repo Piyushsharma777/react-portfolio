@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="w-[90%] flex flex-col gap-4 items-center">
           <div className="w-full h-[1px] border"></div>
           <div className="font-bold sm:text-[14px] text-[12px] flex items-center gap-2">
-            <RiCopyrightLine /> Copyright and Designed with 😎 by Piyush Sharma
+            <RiCopyrightLine /> Copyright 2025 by Piyush Sharma
           </div>
         </div>
       </div>

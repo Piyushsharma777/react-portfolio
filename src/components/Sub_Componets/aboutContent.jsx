@@ -12,7 +12,7 @@ const AboutContent = (props) => {
 
   return (
     <div
-      className="xl:w-[45rem] md:w-[40rem] sm:w-[30rem] w-[22rem] sm:h-[32rem] h-[30px] flex flex-col items-start gap-4 p-2 pt-6"
+      className="xl:w-[45rem] md:w-[38rem] sm:w-[30rem] xs:w-[21rem] w-[20rem] h-[32rem] flex flex-col items-start gap-4 p-2 pt-6"
       key={id}
     >
       <h1 className="text-[2.5rem] lg:mx-0 mx-auto flex gap-2 font-bold leading-normal about-text">
@@ -25,7 +25,7 @@ const AboutContent = (props) => {
         />
       </h1>
 
-      <h2 className="flex xl:text-[1.66rem] lg:text-[1.4rem] sm:text-[1.6rem] text-[.85rem] lg:mx-0 mx-auto font-semibold leading-normal">
+      <h2 className="flex xl:text-[1.66rem] xs:text-[1.6rem] text-[.85rem] mx-0 font-semibold leading-normal">
         {heading}
         <span className="auto-typing-1 text-[#f8ce96] ml-1">
           <TextAnimation />
