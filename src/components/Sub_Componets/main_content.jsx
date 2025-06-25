@@ -42,7 +42,7 @@ const Content = () => {
           target={"_blank"}
           className="flex items-center justify-center gap-3"
         >
-          Download
+          Resume
           <FaDownload />
         </a>
       </button>

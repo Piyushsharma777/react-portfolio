@@ -139,7 +139,7 @@ export const Edu_Data = [
   {
     id: 1,
     name: "Govt. PG College Ambala Cantt ",
-    date: "June 2020 - June 2024",
+    date: "June 2021 - June 2024",
     branch: "Branch: Computer Science",
     image: PIEMR,
     standard: "BCA",
@@ -147,7 +147,7 @@ export const Edu_Data = [
   {
     id: 2,
     name: "Saraswati Senior Secondary School, Ambala",
-    date: "June 2019 - March 2020",
+    date: "June 2020 - March 2021",
     branch: "Branch: English Medium",
     image: NBM,
     standard: "Class: 12th (PCM) | HBSE",
@@ -155,7 +155,7 @@ export const Edu_Data = [
   {
     id: 3,
     name: "Saraswati Senior Secondary School, Ambala",
-    date: "June 2017 - March 2018",
+    date: "June 2018 - March 2019",
     branch: "Branch: English Medium",
     image: NBM,
     standard: "Class: 10th | HBSE",
