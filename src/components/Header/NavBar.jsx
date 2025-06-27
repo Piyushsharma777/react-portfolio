@@ -55,7 +55,7 @@ const NavigationBar = () => {
                   onClick={() => {
                     window.scrollTo(0, 0);
                   }}
-                  className="font-semibold lg:text-sm text-xs hover:text-[#268feb] hover:underline underline-offset-2 transition-all duration-500"
+                  className="font-semibold text-base hover:text-[#268feb] hover:underline underline-offset-2 transition-all duration-500"
                 >
                   {link.name}
                 </Link>
@@ -70,7 +70,7 @@ const NavigationBar = () => {
             setIsOpen(!isOpen);
           }}
         >
-          {isOpen ? <RxCross1 fontSize={25} /> : <HiMenuAlt3 fontSize={28} />}
+          {isOpen ? <RxCross1 fontSize={33} /> : <HiMenuAlt3 fontSize={33} />}
         </button>
       </Box>
     </Box>

@@ -9,6 +9,7 @@ import WorkExperience from "./pages/Work_Experience";
 import NavigationBar from "./components/Header/NavBar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import ClientWrapper from "./ClientWrapper";
 
 const App = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -27,7 +28,8 @@ const App = () => {
   };
 
   return (
-    <Box
+   <ClientWrapper>
+     <Box
       component={"main"}
       className="flex flex-col w-screen min-h-screen bg-[#000814] overflow-x-hidden"
     >
@@ -43,6 +45,7 @@ const App = () => {
       <Contact />
       <Footer />
     </Box>
+   </ClientWrapper>
   );
 };
 
