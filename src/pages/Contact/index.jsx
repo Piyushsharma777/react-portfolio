@@ -18,7 +18,7 @@ const Contact = () => {
 
   const [isloading, setIsLoading] = useState(false);
 
-  const PUBLIC_KEY = "YOeeliDWO8RXStjkb"; // Ideally, store this in an .env file
+  const PUBLIC_KEY = "YOeeliDWO8RXStjkb76876"; // Ideally, store this in an .env file
   const TEMPLATE_ID = "template_j283led";
   const SERVICE_ID = "service_okmc83m";
 
@@ -73,7 +73,7 @@ const Contact = () => {
 
   return (
     <section className="pt-[15px] pb-[50px] w-11/12 max-w-screen-xl mx-auto">
-      {/* <div className="mx-auto max-w-[740px] text-center">
+      <div className="mx-auto max-w-[740px] text-center">
         <h2 className="h2-heading">Get In Touch</h2>
         <h1 className="h1-heading contact">Contact Me</h1>
       </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                   <div className="flex lg:flex-nowrap flex-wrap sm:gap-2 gap-4 w-[100%]">
                     <input
                       type="text"
-                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] h-[45px] px-3 rounded-lg outline-none"
+                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] h-[45px] px-3 rounded-lg outline-none text-black"
                       placeholder="Enter full name..."
                       name="fullName"
                       onChange={changeHandler}
@@ -121,7 +121,7 @@ const Contact = () => {
                     />
                     <input
                       type="email"
-                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none"
+                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none  text-black"
                       placeholder="Enter email address..."
                       name="email"
                       onChange={changeHandler}
@@ -132,7 +132,7 @@ const Contact = () => {
                   <div className="flex lg:flex-nowrap flex-wrap sm:gap-2 gap-4 w-[100%]">
                     <input
                       type="tel"
-                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none"
+                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none  text-black"
                       placeholder="Enter mobile no..."
                       name="phone"
                       onChange={changeHandler}
@@ -140,7 +140,7 @@ const Contact = () => {
                     />
                     <input
                       type="text"
-                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none"
+                      className="xl:w-full md:w-[49%] sm:w-[49%] w-full xl:h-[50px] sm:h-[45px] h-[40px] px-3 rounded-lg outline-none  text-black"
                       placeholder="Enter email subject..."
                       name="subject"
                       onChange={changeHandler}
@@ -150,7 +150,7 @@ const Contact = () => {
 
                   <textarea
                     placeholder="Message..."
-                    className="w-full md:h-[200px] sm:h-[180px] h-[170px] rounded-lg p-3 outline-none"
+                    className="w-full md:h-[200px] sm:h-[180px] h-[170px] rounded-lg p-3 outline-none  text-black"
                     name="message"
                     onChange={changeHandler}
                     value={formData.message}
@@ -161,7 +161,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     onClick={submitHandler}
-                    className="w-full h-full py-2 px-6 gap-1 text-[1.1rem] font-semibold rounded-3xl bg-[#c1ffff]"
+                    className="w-fit h-full py-2 px-6 gap-1 text-[1.1rem] font-semibold rounded-3xl bg-[#c1ffff]"
                   >
                     {isloading ? "Delivering..." : "Send"}
                   </button>
@@ -170,7 +170,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
